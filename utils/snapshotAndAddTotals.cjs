@@ -6,9 +6,9 @@ const takeSnapshot = require('../snapshot/snapshot-dot.cjs').takeSnapshot;
 
 async function main() {
     try {
-        let blockNumber = 19952000; 
-        let snapshotFileName = `./DOT-balances-live-dwellir-${blockNumber}-Two.json`;
-        let lastKeyFileName = `./lastKeyDwellirDOT-${blockNumber}-Two.txt`;
+        let blockNumber = 20109444; 
+        let snapshotFileName = `./Mythos-DOT-balances-live-dwellir-${blockNumber}.json`;
+        let lastKeyFileName = `./lastKeyDwellirMythosDOT-${blockNumber}.txt`;
 
         console.log(`Starting process for block number: ${blockNumber}`);
 

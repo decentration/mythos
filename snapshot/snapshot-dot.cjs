@@ -23,7 +23,7 @@ const config = require('../config.cjs');
 // Global Variables
 var global = {
 	blocknumber: 0,
-	pageSize: 1000,
+	pageSize: 10000,
 };
 
 
@@ -116,7 +116,7 @@ async function takeSnapshot(blockNumber = localConfig.blockNumber, fileName = lo
 
     } catch (error) {
         console.error("Error occurred:", error);
-        throw error;
+        // throw error;
     } 
 }
 
